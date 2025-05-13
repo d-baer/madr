@@ -33,11 +33,3 @@ jobs:
         with:
           fail: true
           args: --max-concurrency 1 --cache --no-progress --exclude-all-private './**/*.md'
-  keepalive:
-    name: Keepalive
-    runs-on: ubuntu-latest
-    permissions:
-      actions: write
-    steps:
-      - uses: actions/checkout@v4
-      - uses: gautamkrishnar/keepalive-workflow@v2
