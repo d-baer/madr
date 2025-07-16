@@ -43,6 +43,19 @@ The branch name conventions follow the [git flow model](https://www.atlassian.co
 
 See also [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
+## Cite MADR
+
+To cite MADR in your scientific work, use following citation:
+
+```bibtex
+@InProceedings{Kopp2018,
+  author    = {Kopp, Oliver and Armbruster, Anita and Zimmermann, Olaf},
+  booktitle = {ZEUS},
+  title     = {Markdown Architectural Decision Records: Format and Tool Support},
+  year      = {2018},
+}
+```
+
 ## How to start Jekyll locally
 
 For rendering the `docs` directory, Jekyll is needed.
